@@ -1,0 +1,359 @@
+/*===================*/
+/*Basic Setup*/
+/*===================*/
+*{margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    }
+body{
+    text-rendering: optimizeLegibility;
+    font-family: 'Roboto', sans-serif;
+}
+    
+    /*===================*/
+    /*Reuseable Components*/
+    /*===================*/
+    
+.row{
+    max-width: 114rem;
+    margin: 0 auto;  
+}
+.btn{      
+    height:  5rem ;
+    width:16rem ;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background:  #f76666;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border:none;
+    border-radius: 0.5rem;
+    margin:5rem 28rem;
+  }
+    
+    /*===================*/
+    /*Header Section*/
+    /*===================*/
+    header{
+       margin: 1rem 2rem;
+       height: 10vh;
+    }
+      /*===================*/
+    /*Main Navigation*/
+    /*===================*/
+    .main-nav{
+        float: right;
+    }
+     .main-nav li{
+         float: left;
+         list-style-type: none;
+         overflow: hidden;
+         margin-top: 1rem;
+     } 
+     .main-nav li a{
+         color:#000;
+         text-decoration: none;
+         text-transform: uppercase;
+         padding: 1.2rem 1.6rem;
+         display: inline-block;
+         text-align: center;
+         font-size: 1.5rem;
+         font-weight: 700;
+     }
+    
+    .main-nav li a:hover{
+        color: hsl(22, 70%, 71%);
+    }
+   
+     /*===================*/
+    /*INTRO SECTION*/
+    /*===================*/
+.intro-section{
+    width: 100%;
+    max-width: 114rem;
+    margin: 0 auto;
+    height: auto; 
+    display:flex;   
+    
+}
+.desc-part{
+        width: 50%;   
+        height: auto;    
+        
+    } 
+.desc-part h1{
+    padding-top: 2rem;
+    font-size: 3rem;
+    font-weight: 800;
+    margin:0rem 0rem 0rem 28rem;
+}
+.portfolio-name{
+    color: #f38a8a;;
+}
+.desc-part p{
+    font-size: 1.5rem;
+    margin:0rem 0rem 0rem 28rem;
+}
+.img-part{
+    padding-bottom: 10rem;      
+    padding-top: -20rem;
+    margin-left: -1rem;
+    width: 50%;
+ height: auto;
+    
+    }
+ .img-part img{
+float: left;
+width: 100%;  
+       height: 32rem;
+       object-fit:contain;
+      
+    }
+
+    /*===================*/
+    /*ABOUT SECTION*/
+    /*===================*/
+.about-section{
+    width: 100%;
+    height: auto; 
+    display:flex;
+    max-width: 114rem;
+    margin: 0 auto;
+  
+}
+.left-part{
+    width: 50%;    
+    height: auto;
+    padding-bottom: 10rem;
+    padding-left: 20rem;
+    padding-top: -20rem;
+   
+}
+.left-part img{
+float: left;
+width: 100%;  
+height: 32rem;
+object-fit:contain;
+  
+}
+
+.right-part{
+    width: 50%;   
+    height: auto;      
+} 
+.right-part h1{
+font-size: 3rem;
+font-weight: 800;
+margin:0rem 20rem 0rem 2rem;
+padding-left: 10rem;
+padding-top: 2rem;
+}
+
+.right-part p{
+font-size: 1.5rem;
+margin:0rem 20rem 0rem 2rem;
+padding-left: 10rem;
+}
+
+.btn-download{
+    height:  5rem ;
+        width:16rem ;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        background:  #f76666;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border:none;
+        border-radius: 0.5rem;
+    margin: 2rem 12rem;
+
+}
+
+
+/*===================*/
+/*WORKING SECTION*/
+/*===================*/
+.working-section{
+min-height:80vh;
+height: auto;
+width: 100%;
+background: rgb(248, 248, 247);
+margin-top: 2rem;
+/* margin-bottom: 10rem; */
+    }
+
+.working-section h2{
+    font-weight:700;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding-top: 8rem ;
+
+}
+.word-style{
+    color:red;
+}
+
+
+.box{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 1.2rem 1.2rem;
+    border-radius: 1.5rem;
+    width: 30%;
+    height: 33rem;
+    float: left;
+    text-align: center;
+    margin: 1.2rem 1.4rem;
+    
+}
+
+.box h2{
+    padding-top: 1rem;
+    font-size: 2rem;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.working-desc{
+    font-size: 1.4em; 
+    text-align: left;
+    color: #868282;
+}
+.working-img{
+    height: 20rem;
+    width: 100%;
+}
+/*===================*/
+/*SKILL SECTION*/
+/*===================*/
+.skill-section{
+    min-height: 80vh;
+    height: auto;
+    width: 100%;
+    max-width: 114rem;
+    margin: 0 auto;
+    padding: 2rem 2rem 5rem 2rem;
+}
+.skill-section h1{
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem 1rem;
+    padding: 1.2rem 1.2rem;
+}
+.skill-section p{
+    margin-left: 25%;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.container {
+  width: 50%; 
+  background-color: #ddd; 
+ margin-left: 25%;
+ border-radius: 1rem;
+}
+
+.skills {   
+  text-align: right; 
+  padding-top: 2rem; 
+  padding-bottom: 2rem;
+  color: white;
+}
+
+
+.html {width: 80%; background-color: #036642; border-radius: 1rem;} 
+.css {width: 70%; background-color: #0a6dbe;border-radius: 1rem;}
+.js {width: 55%; background-color: #af0e7f;border-radius: 1rem;} 
+
+
+/*===================*/
+/*WORKING INQUIRY SECTION*/
+/*===================*/
+
+.inquiry-section{
+    height: 50vh;
+    width: 100%;
+    /* background-color: aqua; */
+    position: relative;
+   
+}
+.box-child{
+width: 80rem;
+height:40rem;
+  /* background-color: red; */
+  background-image: url("images/Group_33094_1.png");
+  background-repeat: no-repeat; 
+  background-size: contain;
+  /* Center vertically and horizontally */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  margin-top: 10rem;
+  
+}
+
+.inquiry-section h1{
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 8rem 6rem; 
+    font-weight: 900;
+    font-size: 3rem ;
+}
+
+.inquiry-section .btn-chat{
+    float: right;
+    height: 5rem;
+    width: 12rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background: #f76666;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 6rem 6rem;
+    font-weight: bold;
+}
+
+/*===================*/
+/*MEDIA SECTION*/
+/*===================*/
+
+.media-section{
+    height: 12vh;
+    width: 100%;
+   
+}
+.media-section h6{
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #868282;
+    margin-bottom: 1.5rem;
+}
+.media-section h1{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: lowercase;
+    color: #1f1d1d;
+}
+
+.media-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    margin-top: 1.5rem;
+}
+.media-icon img{
+   width: 3%;
+}
